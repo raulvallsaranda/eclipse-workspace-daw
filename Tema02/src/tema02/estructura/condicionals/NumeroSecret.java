@@ -1,7 +1,5 @@
 package tema02.estructura.condicionals;
 
-import java.util.Random;
-
 public class NumeroSecret {
 
 	public static void main(String[] args) {

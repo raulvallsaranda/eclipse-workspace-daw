@@ -14,8 +14,6 @@ public class DescomptePenalitzacio {
 		final double PENALITZACIO = 2.0;
 		// preu introduït per l'usuari
 		double preuUsuari = 0.0;
-		// càlcul del descompte
-		//double valorDescompte = 0.0;
 		// Scanner (entrada de teclat)
 		Scanner entrada = new Scanner(System.in);
 		//preu final
@@ -28,27 +26,22 @@ public class DescomptePenalitzacio {
 		preuUsuari = entrada.nextDouble();
 		System.out.println("Preu introduït per l'usuari : " + preuUsuari + "€");
 
-		//assigne el preu de l'usuari al preu final
+		//assignem el preu de l'usuari al preu final, per si no s'aplica penalització
 		preuFinal = preuUsuari;
+		
 		// comprovar si és menor o igual que el preu mínim (200)
 		if (preuUsuari < PREU_MINIM) {
-			System.out.println("S'aplica penalització");
-			// si és major o igual : calcular descompte
-			//valorDescompte = preuUsuari * PERCENTATGE_DESCOMPTE;
-			
 			System.out.println("S'aplicarà una penalització de : "+PENALITZACIO+"€");
 			//càlcul del preu final
 			preuFinal = preuUsuari + PENALITZACIO;
 			
 		}
-		
+		// mostrar per pantall preu final
 		System.out.println("El preu final a pagar és: "+preuFinal+"€");
 
-		// mostrar per pantalla:
-		// preu de l'usuari
-		// si s'aplica o no el descompte
-		// percentatge a aplicar
-		// preu
+		//tanquem scanner
+		entrada.close();
+
 
 	}
 
