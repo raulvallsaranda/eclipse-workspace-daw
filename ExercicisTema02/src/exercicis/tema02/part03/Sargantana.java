@@ -50,6 +50,8 @@ public class Sargantana {
 			System.out.println("No has introduït la paraula "+SARGANTANA);
 			System.out.println(IMATGE_TRISTA);
 		}
+		//tanquem Scanner
+		entrada.close();
 
 	}
 
