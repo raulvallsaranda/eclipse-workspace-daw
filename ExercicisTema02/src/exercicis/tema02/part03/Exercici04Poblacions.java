@@ -2,7 +2,7 @@ package exercicis.tema02.part03;
 
 import java.util.Scanner;
 
-public class Poblacions {
+public class Exercici04Poblacions {
 	
 	private static final String menu =
 			"Poblacions Disponibles\n"

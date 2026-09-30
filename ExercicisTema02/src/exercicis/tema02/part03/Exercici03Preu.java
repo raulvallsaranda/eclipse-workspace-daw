@@ -2,7 +2,7 @@ package exercicis.tema02.part03;
 
 import java.util.Scanner;
 
-public class Preu {
+public class Exercici03Preu {
 
 	private static final double GRATIS = 0;
 	private static final double LIMIT_BARAT = 20;

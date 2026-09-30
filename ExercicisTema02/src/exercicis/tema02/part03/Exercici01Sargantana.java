@@ -2,7 +2,7 @@ package exercicis.tema02.part03;
 
 import java.util.Scanner;
 
-public class Sargantana {
+public class Exercici01Sargantana {
 	
 	//constants
 	

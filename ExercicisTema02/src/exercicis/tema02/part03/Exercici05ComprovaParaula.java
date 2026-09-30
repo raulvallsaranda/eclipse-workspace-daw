@@ -2,7 +2,7 @@ package exercicis.tema02.part03;
 
 import java.util.Scanner;
 
-public class ComprovaParaula {
+public class Exercici05ComprovaParaula {
 
 	public static void main(String[] args) {
 		

@@ -2,7 +2,7 @@ package exercicis.tema02.part03;
 
 import java.util.Scanner;
 
-public class Multiple10 {
+public class Exercici02Multiple10 {
 
 	public static void main(String[] args) {
 		// constants
