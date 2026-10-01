@@ -29,6 +29,9 @@ public class ProvaSwitch {
 
 		}
 
+		//tanquem scanner
+		entrada.close();
 	}
+	
 
 }
