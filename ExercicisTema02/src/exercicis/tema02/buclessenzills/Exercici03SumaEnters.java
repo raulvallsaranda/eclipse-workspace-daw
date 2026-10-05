@@ -1,0 +1,32 @@
+package exercicis.tema02.buclessenzills;
+
+import java.util.Scanner;
+
+public class Exercici03SumaEnters {
+
+	public static void main(String[] args) {
+		
+		//declaracions
+		int nombreUsuari = 0;
+		int suma = 0;
+		Scanner entrada = new Scanner(System.in);
+		
+		System.out.println("Introdueix un nombre enter positiu major o igual a 1:");
+		if(entrada.hasNextInt()) {
+			nombreUsuari = entrada.nextInt();
+			entrada.nextLine();
+			if(nombreUsuari>=1) {
+				for(int i=1;i<=nombreUsuari;i++) {
+					suma+=i;
+				}
+				System.out.println("El valor de la suma dels nombres entre 1 i "+nombreUsuari+" és: "+suma);
+			} else {
+				System.out.println("Error: el nombre enter no pot ser negatiu o zero");
+			}
+		} else {
+			System.out.println("Error: el valor introduït no és un enter");
+		}
+
+	}
+
+}

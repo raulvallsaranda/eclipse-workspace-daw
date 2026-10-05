@@ -6,7 +6,7 @@ public class InformacioModuls {
 	
 	private static final String MENU = "    MENÚ mòduls 1r DAW\n"
 			+ "---------------------------\n"
-			+ "SI BD PRO LM IPO ANG ED IP\n"
+			+ "SI BD PRO LM IPO ANG ED PI\n"
 			+ "--------------------------\n"
 			+ "Introdueix el codi d'un dels mòduls:";
 	
