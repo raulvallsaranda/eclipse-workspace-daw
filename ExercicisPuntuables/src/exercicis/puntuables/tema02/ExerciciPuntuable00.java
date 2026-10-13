@@ -13,7 +13,6 @@ public class ExerciciPuntuable00 {
 
 		Scanner entrada = new Scanner(System.in);
 		int numero1 = 0;
-		int numero2 = 0;
 		boolean numero1Valid = false;
 		int desenes = 0;
 		int unitats = 0;
@@ -34,6 +33,11 @@ public class ExerciciPuntuable00 {
 				System.out.println("Error: l'entrada no és un enter");
 			}			
 		} while(!numero1Valid);
+		
+		
+		
+		
+		
 		
 		//càlculs suma dels dígits
 		for(int i = VALOR_MINIM;i<=VALOR_MAXIM;i++) {

@@ -32,8 +32,7 @@ public class ExerciciPuntuable00Ampliacio {
 					System.out.println("Error: l'enter no està entre " + LIMIT_INFERIOR + " i " + LIMIT_SUPERIOR);
 				}
 			} else {
-				while (entrada.nextLine().equals("")) {
-				}
+				while (entrada.nextLine().equals("")) {}
 				System.out.println("Error: l'entrada no és un enter");
 			}
 		} while (!numero1Valid);
