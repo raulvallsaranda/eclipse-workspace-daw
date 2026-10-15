@@ -1,8 +1,12 @@
 package tema03.arrays.exemples;
 
+import java.util.Random;
+
 public class ProvaArrays {
 
 	public static void main(String[] args) {
+		
+		Random aleatori = new Random();
 
 		// declaració + inicialització
 		int valor = 0;
@@ -11,13 +15,18 @@ public class ProvaArrays {
 		
 		double[] valorsDecimals = new double[5];
 		
-		String[] valorsCadena = new String[5];
+		String[] valorsCadena = {"Xàtiva","Novetlè","Canals","Aiacor","Albaida"};
+		String[] diesSetmana = {"Dilluns","Dimarts","Dimecres","Dijous","Divendres","Dissabte","Diumenge"};
 		valorsCadena[3]="Tots a casa";
 		
 		boolean[] valorsBoolean = new boolean[6];
 		
 		int[] valors2 = new int[5];
 		
+		int dia = aleatori.nextInt(0,7);
+		
+		
+		System.out.println("Dia de la setmana: " +diesSetmana[dia]);
 
 		// modificació
 		valor = 5;
