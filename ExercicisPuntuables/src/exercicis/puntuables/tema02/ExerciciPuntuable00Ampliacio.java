@@ -19,6 +19,8 @@ public class ExerciciPuntuable00Ampliacio {
 		int desenes = 0;
 		int unitats = 0;
 		int quantitatSuma = 0;
+		
+		System.out.println(20%21);
 
 		// demanem primer número
 		do {
