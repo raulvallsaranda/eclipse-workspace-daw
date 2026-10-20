@@ -1,6 +1,6 @@
-package traces.tema02.exercici01;
+package exercicis.tema02.traces.repas;
 
-public class Traces01 {
+public class Traces01Repas {
 
 	public static void main(String[] args) {
 		/********** Traça 1 ************/
