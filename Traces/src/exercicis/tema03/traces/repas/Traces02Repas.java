@@ -1,4 +1,4 @@
-package exercicis.tema02.traces.repas;
+package exercicis.tema03.traces.repas;
 
 public class Traces02Repas {
 
