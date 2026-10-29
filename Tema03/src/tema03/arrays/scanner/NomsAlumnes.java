@@ -11,6 +11,7 @@ public class NomsAlumnes {
 		
 		//declaració de variables
 		String nom = "";
+		String nomAleatori ="";
 		Scanner entrada = new Scanner(System.in);
 		Random aleatori = new Random();
 		int nAlumnes = 0;
@@ -46,17 +47,18 @@ public class NomsAlumnes {
 		//demanar a l'usuari n noms
 		while(comptadorAlumnes<nAlumnes) {
 			
-			//demane nom
-			System.out.println("Escriu el nom d'un alumne:");
+			//obtenim el nom
+			System.out.println("Introdueix un nom (amb més de 3 caràcters)");
 			nom = entrada.nextLine();
 			
-			//comprove si és correcte
-			if(nom.length()>=LONG_MINIMA) {
+			if(nom.isBlank()) {
+				System.out.println("La cadena no pot estar buida");
+			} else if(nom.length()>=3) {
+				System.out.println("Nom introduït ("+comptadorAlumnes+"): "+nom);
 				alumnes[comptadorAlumnes]=nom;
-				System.out.println("Alumne("+(comptadorAlumnes+1)+"): "+nom);
 				comptadorAlumnes++;
-			}else {
-				System.out.println("Error: nom incorrecte");
+			} else {
+				System.out.println("La longitud és menor que 3 caràcters");
 			}
 			
 		}
@@ -64,7 +66,7 @@ public class NomsAlumnes {
 		
 		//triar un nom aleatori de l'array
 		
-		
+		nomAleatori = alumnes[aleatori.nextInt(alumnes.length)];
 		
 		//ficar en pantalla array
 		System.out.print("Array d'alumnes: ");
@@ -75,6 +77,7 @@ public class NomsAlumnes {
 		
 		
 		//ficar en pantalla usuari aleatori amb missatge
+		System.out.println("Nom aleatori: "+nomAleatori);
 		
 
 	}
