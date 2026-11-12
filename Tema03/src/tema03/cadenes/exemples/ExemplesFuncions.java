@@ -4,7 +4,19 @@ public class ExemplesFuncions {
 
 	public static void main(String[] args) {
 		
-		String vocals = "AEIOU";
+		String cadena = "Sargantana";
+		
+		/*if(cadena.endsWith("ana")) {
+			System.out.println("comença per ana");
+		} else {
+			System.out.println("no comença per ana");
+		}*/
+		
+		//System.out.println(cadena.replace("an","--"));
+		//System.out.println(cadena.replaceFirst("in","--"));
+		//System.out.println(cadena.replaceAll("Sar","e"));
+		System.out.println(cadena.replace(".", "e"));
+		/*String vocals = "AEIOU";
 		
 		String cadena = "HOLA";
 		
@@ -14,7 +26,9 @@ public class ExemplesFuncions {
 			} else {
 				System.out.println(cadena.charAt(i)+" no vocal");
 			}
-		}
+		}*/
+		
+		
 		
 
 	}
